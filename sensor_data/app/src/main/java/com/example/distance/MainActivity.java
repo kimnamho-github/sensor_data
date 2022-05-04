@@ -149,7 +149,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
 
     private void saveFile() { // 파일 저장 함수
         File path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS); // 외부 저장소 DOWNLOADS 에 저장
-        String filepath = "sensor_data"; // wearable 폴더에 파일 저장
+        String filepath = "sensor_data"; // sensor_data 폴더에 파일 저장
         File file = new File(path, filepath);
 
         Storage storeTemp;
